@@ -1,0 +1,194 @@
+{% load static %}
+
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-right image">
+                <img src="{% static 'dist/img/hj.jpg' %}" class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-right info">
+                <p>حامد جعفری</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> آنلاین</a>
+            </div>
+        </div>
+        <!-- search form -->
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="جستجو">
+                <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+              </button>
+            </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">منو</li>
+            <li class="active treeview">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>داشبرد</span>
+                    <span class="pull-left-container">
+                <i class="fa fa-angle-right pull-left"></i>
+              </span>
+                </a>
+
+            </li>
+
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            رزومه
+            <small></small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href=""><i class="fa fa-dashboard"></i> خانه</a></li>
+            <li class="active">رزومه</li>
+        </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h4>برنامه نویس پایتون</h4>
+                        <h6>Python</h6>
+                        &nbsp;
+                        <p>از سال 98 - تاکنون </p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-social-python"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">اطلاعات بیشتر <i
+                            class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h4>برنامه نویسی جنگو<sup style="font-size: 20px"></sup></h4>
+                        <h6>Django<sup style="font-size: 10px"></sup></h6>
+                        &nbsp;
+                        <p>از سال 1400 - تاکنون</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion-social-python"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">اطلاعات بیشتر <i
+                            class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h4> جاوا اسکریپت</h4>
+                        <h6>JavaScript</h6>
+                        &nbsp;
+                        <p>از 1400 - تاکنون</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-social-javascript "></i>
+                    </div>
+                    <a href="#" class="small-box-footer">اطلاعات بیشتر <i
+                            class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-lg-3 col-xs-6">
+                <!-- small box -->
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h4>گیت هاب</h4>
+                        <h6>github</h6>
+                        &nbsp;
+                        <p>از 1397 - تاکنون</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-social-github"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">اطلاعات بیشتر <i
+                            class="fa fa-arrow-circle-left"></i></a>
+                </div>
+            </div>
+            <!-- ./col -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <section class="col-lg-12 col-md-12">
+                <div class="box box-info">
+                    <div class="box-header">
+                        <i class="fa fa-info-circle"></i>
+                        <h3 class="box-title">درباره ی من</h3>
+                        <!-- tools box -->
+                        <div class="pull-left box-tools">
+                            <button type="button" class="btn bg-info btn-sm" data-widget="collapse"><i
+                                    class="fa fa-minus"></i>
+                            </button>
+                        </div>
+                        <!-- /. tools -->
+                    </div>
+                    <div class="box-body">
+                        <h5><img src="{% static 'dist/img/azadlogo.jpg' %}" width="30" height="30" "> &nbsp;فارغ
+                            التحصیل رشته ی مهندسی کامپیوتر دانشگاه آزاد </h5>
+
+                        <h5><img src="{% static "dist/img/team.svg" %}" width="30" height="30">&nbsp; علاقه مند
+                            به کار تیمی و پیشرفت جمعی انتقال دانش و مهارت و تجربه به هم تیمی ها </h5>
+                        <h5><img src="{% static "dist/img/ai.png" %}" width="30" height="30"> &nbsp;علاقه مند به
+                            ایده پردازی و خلاقیت و بروز بودن و همگام با نوآوری های جدید در جهان </h5>
+                        <br>
+                        <h5><b>ویژگی های قالب و تفاوت های آن با قالب اصلی:</b></h5>
+                        <h5>۱- قالب به صورت کامل و حرفه ای فارسی و راست چین شده.</h5>
+                        <h5>۲- انتخاب تاریخ به صورت شمسی یا دیتا پیکر توسط کتاب خانه باباخانی اضافه شده.</h5>
+                        <h5>۳- ویرایشگر CK Editor فارسی و راست چین شده.</h5>
+                        <h5>۴- ویرایشگر TinyMCE فارسی و راست چین شده و به قالب اضافه شده.</h5>
+                        <h5>۵- همچنین فونت فارسی برای خوانایی بیشتر حروف و اعداد فارسی به قالب افزوده شد.</h5>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Main row -->
+        <div class="row">
+            <!-- right col -->
+            <section class="col-lg-7 connectedSortable">
+                <!-- Custom tabs (Charts with tabs)-->
+
+
+            </section>
+            <!-- /.right col -->
+            <!-- left col (We are only adding the ID to make the widgets sortable)-->
+            <section class="col-lg-5 connectedSortable">
+                <!-- Calendar -->
+
+
+
+                <!-- /.box -->
+
+
+                <!-- /.box -->
+
+            </section>
+            <!-- left col -->
+        </div>
+        <!-- /.row (main row) -->
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

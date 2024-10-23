@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% block site_title %}{% endblock %}</title>
+
+    {% include '_base/css_ref.html' %}
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    {% include '_base/header_ref.html' %}
+    {% include '_base/aside.html' %}
+{% block content %}{% endblock %}    <!-- body  -->
+{% include '_base/js_ref.html' %}
+</body>
+</html>
